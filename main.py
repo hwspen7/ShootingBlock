@@ -197,7 +197,6 @@ def merge_column(col):
 
 def clear_horizontal_matches():
     changed = False
-    # 按行从底到顶遍历
     for row in range(rows):
         # Build a list of blocks on this row from all columns
         this_row = []
